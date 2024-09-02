@@ -47,19 +47,13 @@ Ce projet est une version étendue du célèbre jeu de Tic-Tac-Toe, également c
 
 ### Étapes de déploiement
 
-1. **Création d'un Bucket S3** :
 
-    - Connectez-vous à votre compte AWS.
-    - Allez à S3 et créez un nouveau bucket.
-    - Nommez votre bucket (assurez-vous que le nom est unique) et sélectionnez une région.
-    - Décochez les options de blocage de l'accès public si vous souhaitez que votre site soit accessible publiquement.
-
-2. **Hébergement de site statique** :
+1. **Hébergement de site statique** :
 
     - Après avoir créé le bucket, allez dans les paramètres du bucket.
     - Activez l'hébergement de site statique et spécifiez `index.html` comme document d'index.
 
-3. **Télécharger les fichiers de votre jeu** :
+2. **Télécharger les fichiers de votre jeu** :
 
     - Téléchargez les fichiers HTML, CSS, et JavaScript de votre jeu dans le bucket S3.
     - Assurez-vous que les fichiers ont les bonnes permissions (accès public pour le monde entier si c'est un site public).
@@ -67,7 +61,7 @@ Ce projet est une version étendue du célèbre jeu de Tic-Tac-Toe, également c
 
 
 
-4. **Accéder à votre site** :
+3. **Accéder à votre site** :
 
     - Une fois les fichiers téléchargés et configurés, vous pouvez accéder à votre jeu via l'URL du site statique S3 ou via l'URL CloudFront si configuré.
 
