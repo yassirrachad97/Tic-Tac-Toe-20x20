@@ -188,7 +188,7 @@ closeBtn.addEventListener('click', ()=>{
 function showMessage(player,winner){
     overlay.style.display = 'flex';
     if(winner){
-        messageContent.innerHTML = player.Symbol + 'is the <h2>Winner</h2>';
+        messageContent.innerHTML = player.Symbol + ' is the <h2>Winner</h2>';
       
     }else{
        messageContent.innerHTML = 'It is a <h2>Draw</h2>'; 
